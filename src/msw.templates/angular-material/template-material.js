@@ -1,5 +1,6 @@
 import angular from 'angular';
 import 'angular-material';
+
 import {
   componentConfig
 } from '../../msw.config/component.config.js';

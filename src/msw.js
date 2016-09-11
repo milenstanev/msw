@@ -4,10 +4,8 @@ import 'angular-sanitize';
 import 'angular/bower-angular-animate';
 
 //region main modules section
-
-//import mswCore from '../lib/core/index.js';
-import mswCore from 'milenstanev-msw.core';
-
+import mswCore from '../lib/core/index.js';
+//import mswCore from 'milenstanev-msw.core';
 //endregion
 
 import {
@@ -17,13 +15,7 @@ import {
 import ComponentSvc from './msw.Svc.js';
 import ComponentCtrl from './msw.Ctrl.js';
 import ComponentDirective from './msw.Directive.js';
-
-//region templates
-/* angular-material */
-import componentTemplate from './msw.templates/angular-material/template-material.js';
-/* angular-strap */
-// import componentTemplate from './msw.templates/angular-strap/template-bootstrap.js';
-//endregion
+import componentTemplate from './msw.templates/msw.templates.js';
 
 /**
  * @desc Angular module name: prefix.component, description: desc
@@ -49,8 +41,8 @@ const component = angular.module(`${componentConfig.NAMESPACE}.${componentConfig
   'ui.router',
   'ngSanitize',
   'ngAnimate',
-  componentTemplate.name,
-  mswCore.name
+  componentTemplate.name
+  , mswCore.name
 ]);
 
 /**
@@ -73,7 +65,7 @@ component.directive(componentConfig.DIRECTIVE_NAME_CAPS, [
 
  angular.bootstrap(document.body, [
    component.name
-])
+]);
 
 export default component;
 

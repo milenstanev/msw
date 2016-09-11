@@ -16,20 +16,14 @@ System.config({
   bundles: {
     "dist/msw.common.dist.js": [
       "src/msw.common.js",
-      "src/msw.templates/angular-material/template-material.js",
-      "src/msw.templates/angular-material/template-name-material.css!github:systemjs/plugin-css@0.1.27.js",
-      "src/msw.templates/angular-material/template-name-material.html!github:systemjs/plugin-text@0.0.8.js",
-      "src/msw.config/component.config.js",
-      "src/msw.config/constants.js",
-      "github:angular/bower-material@1.1.1.js",
-      "github:angular/bower-material@1.1.1/angular-material.js",
-      "github:angular/bower-angular-aria@1.5.8.js",
-      "github:angular/bower-angular-aria@1.5.8/angular-aria.js",
+      "github:mgcrea/angular-strap@2.3.9.js",
+      "github:mgcrea/angular-strap@2.3.9/angular-strap.tpl.js",
+      "github:mgcrea/angular-strap@2.3.9/angular-strap.js",
       "github:angular/bower-angular@1.5.8.js",
       "github:angular/bower-angular@1.5.8/angular.js",
+      "github:twbs/bootstrap@3.3.7/css/bootstrap.css!github:systemjs/plugin-css@0.1.27.js",
       "github:angular/bower-angular-animate@1.5.8.js",
       "github:angular/bower-angular-animate@1.5.8/angular-animate.js",
-      "github:angular/bower-material@1.1.1/angular-material.css!github:systemjs/plugin-css@0.1.27.js",
       "npm:angular-sanitize@1.5.8.js",
       "npm:angular-sanitize@1.5.8/index.js",
       "npm:angular-sanitize@1.5.8/angular-sanitize.js",
@@ -52,9 +46,8 @@ System.config({
     "matirial-css": "src/msw.templates/angular-material/template-name-matirial.css",
     "matirial-html": "src/msw.templates/angular-material/template-name-matirial.html",
     "mgcrea/angular-strap": "github:mgcrea/angular-strap@2.3.9",
-    "milenstanev-msw.core": "github:milenstanev-msw.core@1.0.0",
-    "ocombe/ocLazyLoad": "github:ocombe/ocLazyLoad@1.0.9",
     "text": "github:systemjs/plugin-text@0.0.8",
+    "twbs/bootstrap": "github:twbs/bootstrap@3.3.7",
     "github:angular-ui/ui-router@0.3.1": {
       "angular": "github:angular/bower-angular@1.5.8"
     },
@@ -91,19 +84,8 @@ System.config({
     "github:mgcrea/angular-strap@2.3.9": {
       "angular": "github:angular/bower-angular@1.5.8"
     },
-    "github:milenstanev-msw.core@1.0.0": {
-      "angular": "github:angular/bower-angular@1.5.8",
-      "angular-material": "github:angular/bower-material@1.1.1",
-      "angular-mocks": "npm:angular-mocks@1.5.8",
-      "angular-sanitize": "npm:angular-sanitize@1.5.8",
-      "angular-ui/ui-router": "github:angular-ui/ui-router@0.3.1",
-      "angular/bower-angular-animate": "github:angular/bower-angular-animate@1.5.8",
-      "babel": "npm:babel-core@5.8.38",
-      "babel-runtime": "npm:babel-runtime@5.8.38",
-      "core-js": "npm:core-js@1.2.7",
-      "css": "github:systemjs/plugin-css@0.1.27",
-      "mgcrea/angular-strap": "github:mgcrea/angular-strap@2.3.9",
-      "text": "github:systemjs/plugin-text@0.0.8"
+    "github:twbs/bootstrap@3.3.7": {
+      "jquery": "npm:jquery@3.1.0"
     },
     "npm:assert@1.4.1": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",

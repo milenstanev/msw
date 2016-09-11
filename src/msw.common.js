@@ -3,24 +3,22 @@ import 'angular-ui/ui-router';
 import 'angular-sanitize';
 import 'angular/bower-angular-animate';
 
-import {
-  componentConfig  // configure names .etc
-} from './msw.config/component.config.js';
-
 //region templates
 /* angular-material */
-import componentTemplate from './msw.templates/angular-material/template-material.js';
+//import 'angular-material';
 
 /* angular-strap */
-// import componentTemplate from './msw.templates/angular-strap/template-bootstrap.js';
+import 'twbs/bootstrap/css/bootstrap.css!';
+import 'mgcrea/angular-strap';
 //endregion
 
 
-const common = angular.module(`${componentConfig.NAMESPACE}.${componentConfig.COMPONENT_NAME}`, [
+const common = angular.module('msw.common', [
   'ui.router',
   'ngSanitize',
-  'ngAnimate',
-  componentTemplate.name
+  'ngAnimate'
+  //,'ngMaterial' // Material
+  ,'mgcrea.ngStrap' // AngularStrap
 ]);
 
 export  {

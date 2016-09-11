@@ -27,7 +27,8 @@
     "start-dev": "node util/start.dev.js",
     "build": "node util/build.js",
     "jspm-link": "npm run-script esdoc && jspm link github:milenstanev/msw.component.template -y",
-    "jspm-make-common": "jspm bundle ./src/msw.common.js ./dist/msw.common.dist.js --minify --inject",
+    "jspm-bundle-common": "jspm bundle ./src/msw.common.js ./dist/msw.common.dist.js --minify --inject",
+    "jspm-unbundle-common": "jspm unbundle",
     "esdoc": "./node_modules/.bin/esdoc -c esdoc.json",
     "esdoc-show": "open ./esdoc/index.html"
   },
@@ -46,7 +47,8 @@
       "core-js": "npm:core-js@^1.1.4",
       "css": "github:systemjs/plugin-css@^0.1.27",
       "mgcrea/angular-strap": "github:mgcrea/angular-strap@^2.3.9",
-      "text": "github:systemjs/plugin-text@^0.0.8"
+      "text": "github:systemjs/plugin-text@^0.0.8",
+      "twbs/bootstrap": "github:twbs/bootstrap@^3.3.7"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

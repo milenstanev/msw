@@ -6,29 +6,20 @@
 </head>
 <body ng-cloak>
 
-<!--<h1>Page example</h1>
-
-<h2>Without route</h2>
-<h3>With directive</h3>-->
-
 <div prefix-component></div>
 
-<!--<hr>
-
-<h3>With controller and include</h3>
-<div ng-controller="ComponentCtrl as ctrl" ng-include="'componentHtml'"></div>
-
-<hr>
-
-<h3>With ui-view</h3>
-<div ui-view></div>-->
+<!--
+<div ui-view></div>
+-->
 
 <script src="jspm_packages/system.js"></script>
 <script src="config.js"></script>
 
 <script>
-  System.import('angular');
-  System.import('./dist/msw.dist');
+  System.import('angular').then(function () {
+    //System.import('./dist/msw.dist');
+    System.import('./index');
+  });
 </script>
 </body>
 </html>
