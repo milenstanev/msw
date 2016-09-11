@@ -6,5 +6,5 @@
 /esdoc/
 /index.dist.js
 /index.dist.js.map
-/lib/
 /dist/
+/lib/**/jspm_packages/
