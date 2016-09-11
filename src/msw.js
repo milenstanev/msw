@@ -1,12 +1,13 @@
-import angular from 'angular';
-import 'angular-ui/ui-router';
-import 'angular-sanitize';
-import 'angular/bower-angular-animate';
+import {
+  common, angular
+} from './msw.common.js';
 
-//region main modules section
-import mswCore from '../lib/core/index.js';
+//region msw.core
+import mswCore from '../lib/msw.core/index.js';
+//import mswCore from '../lib/msw.core/dist/core.dist.js';
 //import mswCore from 'milenstanev-msw.core';
 //endregion
+
 
 import {
   componentRoutes, // routes
@@ -38,9 +39,7 @@ import componentTemplate from './msw.templates/msw.templates.js';
  *    but otherwise we will lose documentation
  */
 const component = angular.module(`${componentConfig.NAMESPACE}.${componentConfig.COMPONENT_NAME}`, [
-  'ui.router',
-  'ngSanitize',
-  'ngAnimate',
+  common.name,
   componentTemplate.name
   , mswCore.name
 ]);

@@ -10,8 +10,7 @@ System.config({
   },
   paths: {
     "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*",
-    "jspm:*": "jspm_packages/jspm/*"
+    "npm:*": "jspm_packages/npm/*"
   },
   bundles: {
     "dist/msw.common.dist.js": [

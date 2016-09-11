@@ -5,7 +5,7 @@ import 'angular/bower-angular-animate';
 
 //region templates
 /* angular-material */
-//import 'angular-material';
+// import 'angular-material';
 
 /* angular-strap */
 import 'twbs/bootstrap/css/bootstrap.css!';
