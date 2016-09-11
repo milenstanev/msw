@@ -7,5 +7,5 @@
 /index.dist.js
 /index.dist.js.map
 /dist/
-/lib/**/jspm_packages/
-/lib/**/node_modules/
+/lib/
+/_lib/
