@@ -8,4 +8,3 @@
 /index.dist.js.map
 /dist/
 /lib/**/jspm_packages/
-/lib/**/node_modules/
