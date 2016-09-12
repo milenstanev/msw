@@ -3,9 +3,9 @@ import {
 } from './msw.common.js';
 
 //region msw.core
-import mswCore from '../lib/msw.core/index.js';
+//import mswCore from '../lib/msw.core/index.js';
 //import mswCore from '../lib/msw.core/dist/core.dist.js';
-//import mswCore from 'milenstanev-msw.core';
+import mswCore from 'milenstanev-msw.core';
 //endregion
 
 
