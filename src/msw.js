@@ -3,9 +3,15 @@ import {
 } from './msw.common.js';
 
 //region msw.core
-//import mswCore from '../lib/msw.core/index.js';
+import mswCore from '../lib/msw.core/index.js';
 //import mswCore from '../lib/msw.core/dist/core.dist.js';
-import mswCore from 'milenstanev-msw.core';
+//import mswCore from 'milenstanev-msw.core';
+//endregion
+
+//region msw.layout
+import mswLayout from '../lib/msw.layout/index.js';
+//import mswCore from '../lib/msw.layout/dist/core.dist.js';
+//import mswCore from 'milenstanev-msw.layout';
 //endregion
 
 
@@ -42,6 +48,7 @@ const component = angular.module(`${componentConfig.NAMESPACE}.${componentConfig
   common.name,
   componentTemplate.name
   , mswCore.name
+  , mswLayout.name
 ]);
 
 /**
@@ -62,8 +69,8 @@ component.directive(componentConfig.DIRECTIVE_NAME_CAPS, [
   }
 ]);
 
- angular.bootstrap(document.body, [
-   component.name
+angular.bootstrap(document.body, [
+  component.name
 ]);
 
 export default component;

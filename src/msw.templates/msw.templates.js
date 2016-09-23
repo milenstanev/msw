@@ -3,9 +3,9 @@
  */
 
 /* angular-material */
-// import componentTemplate from './angular-material/template-material.js';
+import componentTemplate from './angular-material/template-material.js';
 
 /* angular-strap */
-import componentTemplate from './angular-strap/template-bootstrap.js';
+//import componentTemplate from './angular-strap/template-bootstrap.js';
 
 export default componentTemplate;

@@ -36,6 +36,9 @@ builder.config({
     },
     'milenstanev-msw.core': {
       build: false
+    },
+    'milenstanev-msw.layout': {
+      build: false
     }
   }
 });

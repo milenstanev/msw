@@ -43,6 +43,7 @@ System.config({
     "core-js": "npm:core-js@1.2.7",
     "css": "github:systemjs/plugin-css@0.1.27",
     "mgcrea/angular-strap": "github:mgcrea/angular-strap@2.3.9",
+    "milenstanev-msw.core": "github:milenstanev-msw.core@1.0.0",
     "text": "github:systemjs/plugin-text@0.0.8",
     "twbs/bootstrap": "github:twbs/bootstrap@3.3.7",
     "github:angular-ui/ui-router@0.3.1": {
