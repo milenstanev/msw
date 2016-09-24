@@ -14,6 +14,7 @@ import mswLayout from '../lib/msw.layout/index.js';
 //import mswCore from 'milenstanev-msw.layout';
 //endregion
 
+import test from './components/test.component/test.js';
 
 import {
   componentRoutes, // routes
@@ -49,6 +50,7 @@ const component = angular.module(`${componentConfig.NAMESPACE}.${componentConfig
   componentTemplate.name
   , mswCore.name
   , mswLayout.name
+  , test.name
 ]);
 
 /**
