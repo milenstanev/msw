@@ -44,6 +44,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.27",
     "mgcrea/angular-strap": "github:mgcrea/angular-strap@2.3.9",
     "milenstanev-msw.core": "github:milenstanev-msw.core@1.0.0",
+    "milenstanev-msw.layout": "github:milenstanev-msw.layout@1.0.0",
     "text": "github:systemjs/plugin-text@0.0.8",
     "twbs/bootstrap": "github:twbs/bootstrap@3.3.7",
     "github:angular-ui/ui-router@0.3.1": {
@@ -60,6 +61,9 @@ System.config({
       "angular-animate": "github:angular/bower-angular-animate@1.5.8",
       "angular-aria": "github:angular/bower-angular-aria@1.5.8",
       "css": "github:systemjs/plugin-css@0.1.27"
+    },
+    "github:distros/bootstrap-less@3.3.9": {
+      "jquery": "github:components/jquery@3.1.1"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -93,6 +97,22 @@ System.config({
       "babel-runtime": "npm:babel-runtime@5.8.38",
       "core-js": "npm:core-js@1.2.7",
       "css": "github:systemjs/plugin-css@0.1.27",
+      "mgcrea/angular-strap": "github:mgcrea/angular-strap@2.3.9",
+      "text": "github:systemjs/plugin-text@0.0.8",
+      "twbs/bootstrap": "github:twbs/bootstrap@3.3.7"
+    },
+    "github:milenstanev-msw.layout@1.0.0": {
+      "angular": "github:angular/bower-angular@1.5.8",
+      "angular-material": "github:angular/bower-material@1.1.1",
+      "angular-mocks": "npm:angular-mocks@1.5.8",
+      "angular-sanitize": "npm:angular-sanitize@1.5.8",
+      "angular-ui/ui-router": "github:angular-ui/ui-router@0.3.1",
+      "angular/bower-angular-animate": "github:angular/bower-angular-animate@1.5.8",
+      "babel": "npm:babel-core@5.8.38",
+      "babel-runtime": "npm:babel-runtime@5.8.38",
+      "core-js": "npm:core-js@1.2.7",
+      "css": "github:systemjs/plugin-css@0.1.27",
+      "distros/bootstrap-less": "github:distros/bootstrap-less@3.3.9",
       "mgcrea/angular-strap": "github:mgcrea/angular-strap@2.3.9",
       "text": "github:systemjs/plugin-text@0.0.8",
       "twbs/bootstrap": "github:twbs/bootstrap@3.3.7"

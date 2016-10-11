@@ -6,3 +6,4 @@ cd ./lib
 
 #
 git clone https://github.com/milenstanev/msw.core.git
+##git clone http://github.com/google/material-design-icons/

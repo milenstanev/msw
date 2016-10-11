@@ -25,7 +25,7 @@
   "scripts": {
     "test": "./node_modules/.bin/karma start karma.config.js",
     "postinstall": "jspm install -y",
-    "start-dev": "node util/start.dev.js",
+    "serve": "node util/start.dev.js",
     "build": "node util/build.js",
     "jspm-link": "npm run-script esdoc && jspm link github:milenstanev/msw.component.template -y",
     "jspm-bundle-common": "jspm bundle ./src/msw.common.js ./dist/msw.common.dist.js --minify --inject",
