@@ -20,7 +20,8 @@
     "karma-jasmine": "^1.0.2",
     "karma-jspm": "^2.2.0",
     "karma-junit-reporter": "^2.0.0",
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "systemjs-builder": "^0.15.32"
   },
   "scripts": {
     "test": "./node_modules/.bin/karma start karma.config.js",

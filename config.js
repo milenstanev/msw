@@ -102,6 +102,7 @@ System.config({
       "twbs/bootstrap": "github:twbs/bootstrap@3.3.7"
     },
     "github:milenstanev-msw.layout@1.0.0": {
+      "Pixelkit/PixelKit-Bootstrap-UI-Kits": "github:Pixelkit/PixelKit-Bootstrap-UI-Kits@master",
       "angular": "github:angular/bower-angular@1.5.8",
       "angular-material": "github:angular/bower-material@1.1.1",
       "angular-mocks": "npm:angular-mocks@1.5.8",

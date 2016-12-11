@@ -17,8 +17,8 @@ const common = angular.module('msw.common', [
   'ui.router',
   'ngSanitize',
   'ngAnimate'
-  //,'ngMaterial' // Material
-  ,'mgcrea.ngStrap' // AngularStrap
+  ,'ngMaterial' // Material
+  //,'mgcrea.ngStrap' // AngularStrap
 ]);
 
 export  {
