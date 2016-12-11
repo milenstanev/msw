@@ -95,4 +95,4 @@ class Test {
   constructor() {}
 }
 
-export default DataProvider
+export default DataProvider;
