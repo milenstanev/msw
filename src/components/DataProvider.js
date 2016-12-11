@@ -91,8 +91,4 @@ class DataProvider extends Array {
   }
 }
 
-class Test {
-  constructor() {}
-}
-
-export default DataProvider
+export default DataProvider;
