@@ -92,7 +92,13 @@ class DataProvider extends Array {
 }
 
 class Test {
-  constructor() {}
+  constructor() {
+    /**
+     * Describe the stupid string
+     * @type {string}
+     */
+    this.testProp = '';
+  }
 }
 
 export default DataProvider;
